@@ -8,7 +8,7 @@ using HelpNow.Auth.Infrastructure.UoW;
 using HelpNow.Auth.Domain.Dtos;
 using Dapper;
 using HelpNow.Auth.Domain.Models;
-
+ 
 namespace HelpNow.Auth.Infrastructure.Repository;
 public class UserRepository(IUnitOfWork uow) : IUserRepository
 {
